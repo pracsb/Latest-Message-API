@@ -1,12 +1,13 @@
 # Latest-Message-API
 
-## Design API to get latest message id such that no previous messages are missing. It should have following methods:
+## Design API to get latest message id such that no previous messages are missing. It has the following methods:
 
-This method should adds a message with id number as received message
-def ack(number)
+## 1) ack(number)
+This method adds a message with id number as received message
 
-this method should return the id of last message whose previous counts are not missing
-def latest()
+## 2) latest()
+This method returns the id of last message whose previous counts are not missing
+
 
     Example: 
     Handshake h = new Handshake();
